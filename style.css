@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/tobias-keller-73F4pKoUkM0-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 4px solid rgba(255, 255, 255, .2);
+    border-radius: 25px;
+    padding: 25px 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    width: 350px;
+    padding: 40px;
+     backdrop-filter: blur(7px);
+}
+
+.formulario h1 {
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.formulario p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.formulario label {
+    color: white;
+    padding: 5px;
+}
+
+.formulario input {
+   background-color: transparent;
+   background: transparent;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   padding: 5px 5px;
+   color: white;
+}
+
+input::placeholder {
+   color: white;
+}
+
+.formulario button{
+     background-color: #fff;
+     
+     outline: none;
+     border: none;
+     border-radius: 25px;
+     margin: 10px;
+     width: 93%;
+     height: 50px;
+     cursor: pointer;
+     
+     
+}
+
+.cadastro:hover {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  color: white;
+  transition: 0.7s;
+}
+
+.formulario p {
+    gap: 10px;
+    margin: 10px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.icone i {
+    margin-right: 10px;
+}
+
+ .formulario a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: 600;
+}
+
+.formulario:hover a {
+
+  text-decoration: underline;
+ 
+}
